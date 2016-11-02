@@ -22,7 +22,8 @@ array<int,100> Merge::Leer_i()
     	i++;            
     }
     fichero.close();
-    cout << Dato[0]<< endl;
+    return Dato;
+    /*cout << Dato[0]<< endl;
     cout << Dato[1]<< endl;
     cout << Dato[2]<< endl;
     cout << Dato[3]<< endl;
@@ -50,7 +51,7 @@ array<int,100> Merge::Leer_i()
     cout << Dato[25]<< endl;
     cout << Dato[26]<< endl;
     cout << Dato[27]<< endl;
-    cout << Dato[28]<< endl;
+    cout << Dato[28]<< endl;*/
 }
 array<int,100> Merge::MergeSort(array<int,100> Dato)
 {
